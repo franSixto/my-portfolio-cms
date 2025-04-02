@@ -38,8 +38,9 @@
         "files"
       ]
     },
-    "ProjectURL": {
-      "type": "string"
+    "slug": {
+      "type": "string",
+      "unique": true
     }
   }
 }
