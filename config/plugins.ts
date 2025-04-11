@@ -3,8 +3,5 @@ export default ({ env }) => ({
     config: {
       jwtSecret: env('JWT_SECRET'),
     },
-    'import-export-content': {
-      enabled: true,
-    },
   },
 });
