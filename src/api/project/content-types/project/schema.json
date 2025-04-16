@@ -41,6 +41,16 @@
     "slug": {
       "type": "string",
       "unique": true
+    },
+    "grid": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
